@@ -7,11 +7,11 @@ import {HeaderDiv, HeaderH1, HeaderSpan} from './Header-Styled-Comp';
 
 const Header = () => {
   return (
-    <div className="header">
-      <span className="date">SMARCH 32, 2018</span>
-      <h1>Lambda Times</h1>
+    <HeaderDiv>
+      <HeaderSpan>SMARCH 32, 2018</HeaderSpan>
+      <HeaderH1>Lambda Times</HeaderH1>
       <span className="temp">98°</span>
-    </div>
+    </HeaderDiv>
   )
 }
 
